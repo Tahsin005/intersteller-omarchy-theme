@@ -6,32 +6,31 @@ padding.y = 40
 
 [colors]
 transparent_background_colors = true
-# background_opacity = 0.3 # Does not work currently in alacritty
 
 [colors.primary]
-foreground = "#E6E8F0"
-background = "#0B0D14"
+foreground = "#E0E2EA"
+background = "#0B0E14"
 
 [colors.normal]
-black   = "#05060A"
+black   = "#050508"
 red     = "#FF5C5C"
 green   = "#3DDB84"
-yellow  = "#F2C94C"
+yellow  = "#FFCC66"
 blue    = "#7AA2F7"
-magenta = "#C099FF"
-cyan    = "#B4F9F8"
-white   = "#E6E8F0"
+magenta = "#B18CFE"
+cyan    = "#97F1FB"
+white   = "#E0E2EA"
 
 [colors.bright]
-black   = "#23283B"
-red     = "#FF5C5C"
+black   = "#242B3D"
+red     = "#FF8C42"
 green   = "#3DDB84"
-yellow  = "#F2C94C"
+yellow  = "#FFCC66"
 blue    = "#7AA2F7"
-magenta = "#C099FF"
-cyan    = "#B4F9F8"
-white   = "#E6E8F0"
+magenta = "#B18CFE"
+cyan    = "#97F1FB"
+white   = "#E0E2EA"
 
 [colors.cursor]
-text   = "#0B0D14"
-cursor = "#FFD27D"
+text   = "#0B0E14"
+cursor = "#FFCC66"

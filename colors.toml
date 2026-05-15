@@ -1,29 +1,26 @@
-accent = "#FFD27D"          # Omarchy UI accent: links, focused controls, active states
-cursor = "#FFD27D"          # Cursor color in terminal templates
-foreground = "#E6E8F0"      # Primary text color used across Omarchy templates 
-background = "#0B0D14"      # Default background for terminals and themed UI surfaces
+accent = "#FFCC66"          # Singularity Gold
+cursor = "#FFCC66"          # Cursor Gold
+foreground = "#E0E2EA"      # Starlight White
+background = "#0B0E14"      # Void Black
 
-selection_foreground = "#0B0D14"    # Text color for selections (terminal + UI selection states)
-selection_background = "#FFD27D"    # Selection background used in terminal templates
+selection_foreground = "#0B0E14"
+selection_background = "#FFCC66"
 
 # Base16-aligned 16-color palette.
-# Omarchy templates map these to terminal color0-15 and Base16 base00-base0F.
-# Keep the semantic roles in mind when swapping colors.
+color0  = "#050508"  # Deep Black
+color1  = "#FF5C5C"  # Danger
+color2  = "#3DDB84"  # Success
+color3  = "#F2C94C"  # Warning
+color4  = "#7AA2F7"  # Cosmic Blue
+color5  = "#B18CFE"  # Singularity Purple
+color6  = "#97F1FB"  # Cyan Glow
+color7  = "#E0E2EA"  # Starlight White
 
-color0  = "#05060A"  # base00 - Deep background; primary canvas for terminals
-color1  = "#FF5C5C"  # base08 - Error/critical accents (alerts, destructive states)
-color2  = "#3DDB84"  # base0B - Success/positive accents (ok, added, confirm)
-color3  = "#F2C94C"  # base0A - Warning/attention accents
-color4  = "#7AA2F7"  # base0D - Primary accent (links, active, emphasis)
-color5  = "#C099FF"  # base0E - Secondary accent (special highlights)
-color6  = "#B4F9F8"  # base0C - Informational accents (hints, secondary highlights)
-color7  = "#E6E8F0"  # base05 - Default foreground for terminal text
-
-color8  = "#23283B"  # base03 - Dim text, inactive UI, subtle borders
-color9  = "#FF5C5C"  # base08 - Bright/error variant (often same as color1)
-color10 = "#3DDB84"  # base0B - Bright/success variant (often same as color2)
-color11 = "#F2C94C"  # base0A - Bright/warning variant
-color12 = "#7AA2F7"  # base0D - Bright primary accent variant
-color13 = "#C099FF"  # base0E - Bright secondary accent variant
-color14 = "#B4F9F8"  # base0C - Bright informational accent variant
-color15 = "#E6E8F0"  # base07 - Highest-contrast text for headers and strong emphasis
+color8  = "#242B3D"  # Deep Border
+color9  = "#FF8C42"  # Orange Heat
+color10 = "#3DDB84"
+color11 = "#F2C94C"
+color12 = "#7AA2F7"
+color13 = "#B18CFE"
+color14 = "#97F1FB"
+color15 = "#E0E2EA"

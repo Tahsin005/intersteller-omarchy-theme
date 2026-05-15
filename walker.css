@@ -1,12 +1,12 @@
-@define-color selected-text #FFD27D;
-@define-color text #A9B0C3;
-@define-color base #05060A;
-@define-color border #23283B;
-@define-color foreground #E6E8F0;
-@define-color background #0B0D14;
+@define-color selected-text #FFCC66;
+@define-color text #8F95A5;
+@define-color base #050508;
+@define-color border #242B3D;
+@define-color foreground #E0E2EA;
+@define-color background #0B0E14;
 
 window {
-    background: rgba(11, 13, 20, 0.9);
+    background: rgba(11, 14, 20, 0.9);
 }
 
 window * {
@@ -33,7 +33,7 @@ window .box-wrapper {
 }
 
 window .search-container {
-  background: #121624;
+  background: #161B29;
   border-radius: 10px;
   padding: 18px 20px;
   margin-bottom: 20px;
@@ -48,7 +48,7 @@ window .input {
 }
 
 window .item:selected {
-  background: rgba(255, 210, 125, 0.1);
+  background: rgba(255, 204, 102, 0.1);
   border-radius: 8px;
 }
 

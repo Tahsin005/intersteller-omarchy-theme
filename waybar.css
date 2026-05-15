@@ -1,8 +1,8 @@
-@define-color foreground #E6E8F0;
-@define-color background #0B0D14;
-@define-color accent #FFD27D;
-@define-color surface #121624;
-@define-color border #23283B;
+@define-color foreground #E0E2EA;
+@define-color background #0B0E14;
+@define-color accent #FFCC66;
+@define-color surface #161B29;
+@define-color border #242B3D;
 
 * {
   color: @foreground;
@@ -16,7 +16,7 @@ window#waybar > box {
 
 #workspaces button {
     padding: 0 4px;
-    color: #A9B0C3;
+    color: #8F95A5;
 }
 
 #workspaces button.active {
@@ -25,7 +25,7 @@ window#waybar > box {
 }
 
 #workspaces button:hover {
-    background: rgba(255, 210, 125, 0.1);
+    background: rgba(255, 204, 102, 0.1);
     color: @accent;
 }
 
