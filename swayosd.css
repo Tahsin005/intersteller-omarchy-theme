@@ -1,0 +1,28 @@
+@define-color background-color #0B0D14;
+@define-color border-color #23283B;
+@define-color label #E6E8F0;
+@define-color image #E6E8F0;
+@define-color progress #FFD27D;
+
+/* Main OSD container - rounds the entire popup */
+window.background,
+#osd,
+.osd,
+swayosd-window {
+    padding: 10px 15px;
+    border-width: 1px;
+    border-radius: 12px;
+    background-color: @background-color;
+    border-color: @border-color;
+    color: @label;
+}
+
+progressbar,
+trough {
+    min-height: 8px;
+    background-color: #121624;
+}
+
+progressbar progress {
+    background-color: @progress;
+}

@@ -1,0 +1,51 @@
+@define-color foreground #E6E8F0;
+@define-color background #0B0D14;
+@define-color accent #FFD27D;
+@define-color surface #121624;
+@define-color border #23283B;
+
+* {
+  color: @foreground;
+  font-weight: bold;
+}
+
+window#waybar > box {
+  background-color: @background;
+  border-bottom: 1px solid @border;
+}
+
+#workspaces button {
+    padding: 0 4px;
+    color: #A9B0C3;
+}
+
+#workspaces button.active {
+    border-bottom: 2px solid @accent;
+    color: @foreground;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 210, 125, 0.1);
+    color: @accent;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    padding: 0 10px;
+    color: @foreground;
+}

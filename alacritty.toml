@@ -1,0 +1,37 @@
+
+[window]
+opacity = 0.4
+padding.x = 50
+padding.y = 40
+
+[colors]
+transparent_background_colors = true
+# background_opacity = 0.3 # Does not work currently in alacritty
+
+[colors.primary]
+foreground = "#E6E8F0"
+background = "#0B0D14"
+
+[colors.normal]
+black   = "#05060A"
+red     = "#FF5C5C"
+green   = "#3DDB84"
+yellow  = "#F2C94C"
+blue    = "#7AA2F7"
+magenta = "#C099FF"
+cyan    = "#B4F9F8"
+white   = "#E6E8F0"
+
+[colors.bright]
+black   = "#23283B"
+red     = "#FF5C5C"
+green   = "#3DDB84"
+yellow  = "#F2C94C"
+blue    = "#7AA2F7"
+magenta = "#C099FF"
+cyan    = "#B4F9F8"
+white   = "#E6E8F0"
+
+[colors.cursor]
+text   = "#0B0D14"
+cursor = "#FFD27D"
