@@ -28,3 +28,5 @@ The "Singularity" edition is refined using color analysis from the provided Inte
 - Consistent styling across **Alacritty**, **Kitty**, **Ghostty**, **Hyprland**, **Waybar**, **Mako**, **Walker**, and **Neovim**.
 - Custom highlight overrides for Neovim (Keywords: Purple, Functions: Blue, Strings: Gold).
 - Seamless integration with the descriptive-named Interstellar backgrounds.
+
+![Intersteller Omarchy Theme](featured_image.png)
